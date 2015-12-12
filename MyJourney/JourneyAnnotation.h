@@ -13,7 +13,7 @@
 
 
 @property(nonatomic,readonly)CLLocationCoordinate2D coordinate;
-@property(nonatomic,readonly)NSString *titile;
+@property(nonatomic,readonly, copy)NSString *title;
 @property(strong,nonatomic)NSDate *date;
 @property(strong,nonatomic)NSString *locationName;
 
